@@ -7,7 +7,7 @@ import Test from "./pages/Test";
 
 export default function webRouter() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/home">
           <Home />
