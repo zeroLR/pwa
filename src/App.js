@@ -6,8 +6,8 @@ function App() {
   return (
     <Fragment>
       <h1>hello world!</h1>
-      <Online>Online</Online>
-      <Offline>Offline</Offline>
+      <Online>now is Online</Online>
+      <Offline>now is Offline</Offline>
     </Fragment>
   );
 }
