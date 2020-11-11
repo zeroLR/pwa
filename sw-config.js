@@ -1,7 +1,7 @@
 module.exports = {
   runtimeCaching: [
     {
-      urlPattern: /^https:\/\/zerolr\.github\.io\/pwa\/.*/,
+      urlPattern: /^https:\/\/zerolor\.github\.io\/pwa\/.*/,
       handler: "networkFirst",
     },
   ],
