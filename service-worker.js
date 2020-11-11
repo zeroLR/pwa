@@ -285,7 +285,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/^https:\/\/zerolr\.github\.io\/pwa\/.*/, toolbox.networkFirst, {});
+toolbox.router.get(/^https:\/\/zerolor\.github\.io\/pwa\/.*/, toolbox.networkFirst, {});
 
 
 
