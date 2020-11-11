@@ -11,19 +11,19 @@ class LeftMenu extends Component {
     return (
       <Menu mode="horizontal">
         <Menu.Item key="home">
-          <a href="home">
+          <a href="#/home">
             <HomeOutlined />
             Home
           </a>
         </Menu.Item>
         <Menu.Item key="dashboard">
-          <a href="dashboard">
+          <a href="#/dashboard">
             <DashboardOutlined />
             Dashboard
           </a>
         </Menu.Item>
         <Menu.Item key="test">
-          <a href="test">
+          <a href="#/test">
             <BugOutlined />
             TestPage
           </a>

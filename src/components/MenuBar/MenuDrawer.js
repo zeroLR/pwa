@@ -13,19 +13,19 @@ class MenuDrawer extends Component {
       <Menu mode="inline">
         <SubMenu title={<span>Menu</span>}>
           <Menu.Item>
-            <a href="home">
+            <a href="#/home">
               <HomeOutlined />
               Home
             </a>
           </Menu.Item>
           <Menu.Item>
-            <a href="dashboard">
+            <a href="#/dashboard">
               <DashboardOutlined />
               Dashboard
             </a>
           </Menu.Item>
           <Menu.Item>
-            <a href="test">
+            <a href="#/test">
               <BugOutlined />
               TestPage
             </a>
@@ -33,10 +33,10 @@ class MenuDrawer extends Component {
         </SubMenu>
         <SubMenu title={<span>Sign</span>}>
           <Menu.Item>
-            <a href="signin">Signin</a>
+            <a href="#/signin">Signin</a>
           </Menu.Item>
           <Menu.Item>
-            <a href="signup">Signup</a>
+            <a href="#/signup">Signup</a>
           </Menu.Item>
         </SubMenu>
       </Menu>

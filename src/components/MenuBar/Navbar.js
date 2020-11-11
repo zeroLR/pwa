@@ -22,7 +22,7 @@ class Navbar extends Component {
     return (
       <nav className="menuBar">
         <div className="logo">
-          <a href="Home">CMSG IOT</a>
+          <a href="#/home">CMSG IOT</a>
         </div>
         <div className="menuCon">
           <div className="leftMenu">
